@@ -35,6 +35,7 @@
         
     ],
     "start_url": "index.html",
+    "orientation": "portrait",
     "display": "standalone",
     "background_color": "darkslategrey",
     "theme_color": "darkslategrey"
