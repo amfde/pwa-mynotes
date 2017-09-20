@@ -13,9 +13,12 @@
         <meta name="msapplication-TileImage" content="images/icons/icon-144x144.png">
         <meta name="msapplication-TileColor" content="#607d8b">
         <link rel="apple-touch-icon" href="images/icons/icon-152x152.png">
+        <!--Import Google Icon Font-->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <!--Import materialize.css-->
+        <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
         <link href="css/style.css" rel="stylesheet">
-        <link rel="manifest" href="manifest.json">
-        <script src="js/script.js"></script>
+        <link rel="manifest" href="manifest.json">    
     </head>
     <body>
         <header id="header">
@@ -29,6 +32,11 @@
                 <input type="submit" value="+">
             </form>
             <ul id="notes"></ul>
-        </div>    
+        </div>
+        <!--Import jQuery before materialize.js-->
+        <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="js/materialize.min.js"></script>
+        <!-- pwa script -->
+        <script src="js/script.js"></script>    
     </body>
 </html>
