@@ -14,9 +14,10 @@ body{
 
 
 #notes ul, #notes li{
-    list-style: none;
-    padding: 10px;
-    margin-top: 20px;
+    list-style-image: url('/img/icons/icon-success.png');
+    padding: 2px;
+    margin-left: 20px;
+    margin-bottom: 10px;    
 }
 
 #notes li{
