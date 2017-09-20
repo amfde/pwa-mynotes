@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
     <head>
-        <base href="/pwa-mynotes/">
+        <base href="/">
         <title>MyNotes</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -21,17 +21,25 @@
         <link rel="manifest" href="manifest.json">    
     </head>
     <body>
-        <header id="header">
-            <h1 class="container appTitle">MyNotes</h1>                
-        </header>
-            
+        <nav class="teal darken-3">
+            <div class="nav-wrapper">
+              <a href="#" class="brand-logo">MyNotes</a>
+            </div>
+        </nav>
+        <div class="row"><!--space--></div>   
         <div id="content" class="container">
-            <p>Adicione suas anotações abaixo:</p>
-            <form id="formAddNotes" class="row">
-                <input type="text" value="" placeholder="Anotações..." class="col-1">
-                <input type="submit" value="+">
-            </form>
-            <ul id="notes"></ul>
+            <div class="row">
+                <form id="formAddNotes" class="col s12">
+                  <div class="row">
+                    <div class="input-field col s12">
+                      <i class="material-icons prefix">mode_edit</i>
+                      <textarea id="icon_prefix2" class="materialize-textarea"></textarea>
+                      <label for="icon_prefix2">Anotações...</label>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            <div class="row"><ul id="notes"></ul></div>    
         </div>
         <!--Import jQuery before materialize.js-->
         <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>

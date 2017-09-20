@@ -9,15 +9,9 @@
 body{
     background-color: darkslategrey;
     color: white;
-    font-family: 'Roboto', sans-serif;
-    padding-top: 10px;
-    
+    font-family: 'Roboto', sans-serif;   
 }
 
-input {
-    padding: 10px 20px;
-    font-size: 16px;
-}
 
 #notes ul, #notes li{
     list-style: none;
@@ -31,34 +25,4 @@ input {
 
 #notes li:hover{
     background-color: seagreen;
-}
-
-.row{
-    display: flex;
-}
-
-.col-1{
-    flex-grow: 1;
-}
-
-.col-2{
-    flex-grow: 2;
-}
-
-.appTitle{
-    font-family: 'Caveat', sans-serif;
-    font-size: 40px;
-}
-
-.container{
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
-}
-
-.container p{
-    margin-bottom: 7px;
 }
