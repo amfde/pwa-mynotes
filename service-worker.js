@@ -5,6 +5,7 @@ let filesToCache = [
     'service-worker.js',
     'css/style.css',
     'css/materialize.min.css',
+    'img/icons/icon-success.png',
     'js/jquery-3.2.1.min.js',
     'js/materialize.min.js',   
     'js/script.js'
