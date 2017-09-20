@@ -4,6 +4,9 @@ let filesToCache = [
     'index.html',
     'service-worker.js',
     'css/style.css',
+    'css/materialize.min.css',
+    'js/jquery-3.2.1.min.js',
+    'js/materialize.min.js',   
     'js/script.js'
 ];
 
